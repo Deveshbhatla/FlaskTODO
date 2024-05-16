@@ -1,0 +1,12 @@
+<!Doctype HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Jinja 2 syntax -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/main.css') }}">
+{% block head%}{%endblock%}
+</head>
+<body>
+    {% block body%}{%endblock%}
+</body>
+</html>
